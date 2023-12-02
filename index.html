@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Tivotal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation Tabs with Indicator</title>
+
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="tabs">
+      <input type="radio" name="tab" id="home" checked />
+      <input type="radio" name="tab" id="message" />
+      <input type="radio" name="tab" id="notification" />
+      <input type="radio" name="tab" id="setting" />
+      <input type="radio" name="tab" id="profile" />
+
+      <div class="buttons">
+        <label for="home"><i class="fas fa-home"></i></label>
+        <label for="message"><i class="fas fa-message"></i></label>
+        <label for="notification"><i class="fas fa-bell"></i></label>
+        <label for="setting"><i class="fas fa-gear"></i></label>
+        <label for="profile"><i class="fas fa-user"></i></label>
+        <div class="indicator"></div>
+      </div>
+    </div>
+  </body>
+</html>
